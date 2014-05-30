@@ -1,0 +1,425 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>				<!-- Detect Mobile devices -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />			<!-- Meta Data -->
+    <title>UI | Families</title>
+    
+    <link rel="shortcut icon" href="favicon.png"> 								
+    
+    <link rel="stylesheet" href="css/screen.css?v1.0" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,300italic|Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js?v1.0"></script>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    
+    <script type="text/javascript" src="js/ui_effects.js"></script>
+    
+	<script type="text/javascript">
+		
+			// <![CDATA[
+				$(window).load(function() { 
+					$("#loader").fadeOut("slow");
+					$("#white").fadeOut("slow");
+					$('#header').show(100);
+					
+					$(document).ready(function(e) {
+						var images = new Array()
+						function preload() {
+							for (i = 0; i < preload.arguments.length; i++) {
+								images[i] = new Image()
+								images[i].src = preload.arguments[i]
+							}
+						}
+						
+						preload(
+							"img/bg/geo_blue_2.jpg",
+							"img/bg/geo_ntl.jpg"
+						)
+					});
+				});
+			
+	
+            if(navigator.appVersion.indexOf("MSIE 8.")!=-1 || navigator.appVersion.indexOf("MSIE 7.")!=-1)
+            alert("Notice! This website does not support versions of Internet Explorer. We recommend using Firefox, Google Chrome, Safari or Opera. Sorry for the inconvenience");
+   
+   </script>
+
+</head>
+
+<body>
+
+    <div class="table load">
+        <div class="table_cell">
+            <img src="svg/loading/loading-spin.svg" alt="" class="m_m_right"/>
+            <span class="txt_sm">Please Wait..</span>
+        </div>
+    </div>			<!-- loader -->
+    
+    <div id="container">
+    
+        <header>
+            <section style="text-align:center">
+                <a href="#" class="menu_lg_toggle"><img class="fl_lt" src="svg/menu_fff.svg" alt="" /></a>
+                <a href="#"><img class="header_logo" src="svg/logo_fff.svg" alt="" /></a>
+                <a href="#" class="desktop"  style="float:right"><img src="svg/unlocked_fff.svg" alt="" /></a>
+                <a href="#" class="desktop" style="float:right"><img src="svg/mail_fff.svg" alt="" /></a>
+                <a href="#" class="cart phone" style="float:right" ><img src="svg/cart_fff.svg" alt="" /></a>
+            </section>
+        </header>
+        
+        <nav class="clearfix desktop">
+        	<section>
+                <ul class="inline">
+                    <li><a href="#" class="selected"><img src="svg/home_gy.svg" alt="" /><span>Home</span></a><span class="test"></span></li>
+                    <li><a href="#"><img src="svg/book_gy.svg" alt="" /><span>Bookings</span></a><span class="test"></span></li>
+                    <li><a href="#"><img src="svg/paper_gy.svg" alt="" /><span>Products</span></a><span class="test"></span></li>
+                    <li><a href="#"><img src="svg/family_gy.svg" alt="" /><span>Event Information</span></a><span class="test"></span></li>
+                </ul>
+                <ul class="inline fl_rt">
+                	<li>
+                        <a href="#" class="cart">
+                            <span>0.00 (0) </span><img src="svg/cart_gy.svg" alt="" />
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+        
+        <main>
+            
+            <section class="clearfix">
+            
+            	<aside class="_30_m m_l_top p_l_right">
+					 
+                     <!-- Main Nav -->
+                     
+                     <div class="block_content clearfix">   
+                         
+                            <div class="block_title">
+                            	<img class="m_m_right" src="svg/family_fff.svg" alt="" />Fundraiser
+                                <!-- <h3>Family Portrait Fundraiser</h3> -->
+                            </div>
+                            
+                            <div class="block_list">
+                            
+                                <ul class="link clearfix">
+                                
+                                	<li style="padding-left:1em;">
+                                        <a href="#"><h3 class="event_name">Long Reef Golf Club</h3></a>
+                                        <p>
+                                        	<a href="#">
+                                            <span class="event_date">19th August</span><br/>
+                                            <span class="event_address">9 Grover Street, Collaroy 2089</span>
+                                            </a>
+                                        </p>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="#">
+                                            <img class="m_m_right" src="svg/book_gy.svg" alt="" />
+                                            <span title="Choose a Photo time from the availiable sitting times">Book Sitting</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img class="m_m_right" src="svg/paper_gy.svg" alt="" />
+                                            <span title="View the range of products we have availiable">Products</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img class="m_m_right" src="svg/family_gy.svg" alt="" />
+                                            <span>Fundraiser Information</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img class="m_m_right" src="svg/mail_gy.svg" alt="" />
+                                            <span>Contact</span>
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            
+                            </div>
+                            
+                            <div class="p_m">
+                                <input type="button" class="button_dk bg_sec _100" value="BOOK NOW" />
+                         	</div>
+                    </div>  
+                     
+                     <!-- Share -->
+                         
+                     <div class="block_content clearfix m_l_top">   
+                         
+                            <div class="block_title">
+                                <img class="m_m_right" src="svg/person_fff.svg" alt="" />Share
+                            </div>
+                            
+                            <div class="block_list">
+                            
+                                <ul class="link clearfix">
+                                
+                                    <li>
+                                        <a href="#">
+                                            <span title="Choose a Photo time from the availiable sitting times">Invite Friends</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span title="View the range of products we have availiable">Share this Page</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                         
+                      </div>  
+                     
+                     <!-- Products -->
+                         
+                     <div class="block_content clearfix m_l_top m_l_bottom">   
+                         
+                            <div class="block_title">
+                                <img class="m_m_right" src="svg/paper_fff.svg"  alt="" />Products
+                            </div>
+                            
+                            <div class="block_list">
+                            
+                                <ul class="link clearfix">
+                                
+                                    <li>
+                                        <a href="#">
+                                            <span title="Choose a Photo time from the availiable sitting times">Photo Packages</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span title="View the range of products we have availiable">Photographic Prints</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span title="View the range of products we have availiable">Canvas Prints</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span title="View the range of products we have availiable">Glass Prints</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                         
+                         </div>  
+                                    
+                </aside>
+            	
+                <div id="banner" class="_70_m m_l_top box-shadow">
+                    	<div id="banner_top" class="p_m desktop"><h2 style="border-bottom:1px dotted #666"><img src="svg/paper_gy.svg" alt="" /> Family Portrait Fundraising</h2></div>
+                    	<img src="img/banner/br_0.jpg" alt="" width="100%" />
+                    	<div id="banner_bottom" class="p_l">
+                        	<img class="m_m_right desktop" src="svg/arrow_rt_bl.svg">
+                            <span class="desktop">More Information</span>
+                            <input type="button" class="button_dk _50_m fl_rt bg_prm_d"  style="font-size:1.2em"value="BOOK NOW" />
+                        </div>
+                </div> <!-- banner -->
+                
+                <article class="_70_m m_l_top p_l">
+                    
+                    <h1>How it works</h1>
+                    <h2><span class="event_name">Long Reef Golf Club</span> Family Portrait Fundraiser</h2>
+                    <p>Funds are raised for your organsation by participants purchasing a photo pack selected by your organisation. 100% of funds made from these purchases go to your organisation.</p>
+                    <span class="quote"><p>100% of Funds of Collected Pre sold photo packs goes to Long Reef Golf Club</p></span>
+                    <p>Insert more information on how funds are raised.</p>
+                    
+                    <div class="underline_dotted m_l_top m_l_bottom"></div>
+                    
+                    <p>Raise funds for <span class="event_name">Long Reef Golf Club</span> in 3 easy steps.</p>
+                    
+                    
+                    <span class="_33_m center p_l txt_sm">
+                        <img class="m_m_right" src="svg/ig_date.svg" style="width:12em"  alt="" />
+                        <p><b>1. </b> Book your Family Portrait Sitting. </p>
+                        <a href="#"><p><b>Book Now</b></p></a>
+                    </span>
+                    <span class="_33_m center p_l txt_sm">
+                        <img class="m_m_right" src="svg/ig_camera.svg" style="width:12em" alt="" />
+                        <p><b>2. </b>  Attend <span class="event_name">Long Reef Golf Club</span> on the <span class="event_date">19 August</span> to have a your photos taken by a one of our professional photographers.</p>
+                        <a href="#"><p><b>More Information</b></p></a>
+                    </span>
+                    <span class="_33_m center p_l txt_sm">
+                        <img class="m_m_right" src="svg/ig_family.svg" style="width:12em" alt="" />
+                        <p><b>3. </b> Collect your free <span class="event_product">Family Sketch</span> on the <span class="event_view_day">28 August</span></p>
+                        <a href="#"><p><b>Product Information</b></p></a>
+                    </span>
+                    
+                </article>
+                
+            </section>
+            
+        </main>
+        
+        <div class="clearfix"></div>
+        
+        <footer>
+            <section class="p_l_top">
+                <img src="svg/logo_fff.svg" class="clearfix m_l_top m_l_bottom" alt="" />
+                <h3>Family Portrait Fundraising</h3>
+                <p>With 30 years experience advancedlife has been truly priveleged to supply the families of Australia with millions of Beautiful Portraits that will be treasured for a life time.</p>
+                    
+                <div class="underline_dotted m_l_top m_l_bottom"></div>
+                
+                <span class="_33_m p_l txt_sm">
+                    <p><img class="m_m_right"src="svg/location_fff.svg" alt="" /><span class="event_address">9 Judith Place, Collaroy 2099</span></p>
+                </span>
+                <span class="_33_m p_l txt_sm">
+                    <p><img class="m_m_right" src="svg/mail_fff.svg" alt="" /><span class="event_email">loraine@optusnet.com.au</span></p>
+                </span>
+                <span class="_33_m p_l txt_sm">
+                    <p><img class="m_m_right" src="svg/phone_fff.svg" alt="" /><span class="event_phone">(02) 8974 8932</span></p>
+                </span>
+                <div class="clearfix"></div>
+                
+                <div class="underline_dotted m_l_top m_l_bottom"></div>
+                
+                <p>30 Years experience providing Austrailian Families with photographic solutions.</p>
+                <p>© advancedlife photography 2014</p>
+                
+            </section>
+        </footer>
+        
+        
+        <div id="menu_preview"></div>		<!-- menu preview -->
+        
+        <div id="menu_widget" class="center desktop">
+                <ul>
+                    <li>
+                        <a href="#" class="menu_lg_toggle">
+                            <img src="svg/menu_gn.svg" class="clearfix" alt="" />
+                            <span>Menu</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu_help_toggle">
+                            <img src="svg/help_bl.svg" class="clearfix" alt="" />
+                            <span>FAQ's</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="svg/mail_gn.svg" class="clearfix" alt="" />
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>      <!-- widget -->
+        
+        <div id="menu_lg" class="p_xl _30_m">
+        
+            <h3 style="font-size:2em">MENU<a href="#"><img src="svg/arrow_lt_thin.svg" class="fl_rt menu_lg_toggle" alt="" /></a></h3>
+
+            <div class="block_title m_l_top">
+                General
+            </div>
+            
+            <div class="block_list">
+            
+                <ul class="link clearfix">
+                
+                    <li>
+                        <a href="#">
+                            <img src="svg/book_gy.svg" alt=""/>
+                            <span title="Choose a Photo time from the availiable sitting times">Book Sitting</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="svg/paper_gy.svg" class="m_m_right" alt=""/>
+                            <span title="View the range of products we have availiable">Products</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="svg/family_gy.svg" class="m_m_right" alt=""/>
+                            <span>Fundraiser Information</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        	<img src="svg/mail_gy.svg" class="m_m_right" alt=""/>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+                
+            </div>
+            
+            <div class="block_title m_l_top">
+                Fundraiser Information
+            </div>
+            
+            
+            <div class="block_list">
+            
+                <ul class="link clearfix">
+                
+                    <li>
+                        <a href="#">
+                            <span class="event_name">Long Reef Golf Club</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="event_date">9th August</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="event_location">9 Judith Place, Collaroy 2099</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="event_email">loraine@optus.net.au</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="event_email">(02) 9986 1568</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+            
+            
+            
+        </div>		<!-- menu_lg -->
+        
+        <div id="menu_help_lg" class="p_xl _33_m">
+        
+        	<a href="#" class="menu_help_toggle"><img src="svg/arrow_lt_thin.svg" class="fl_rt clearfix" style="height:3em;" /></a>
+        	
+            <div class="clearfix"></div>
+        	<h1>Help Menu</h1>
+            <h2>Frequently Asked Questions</h2>
+            <div class="underline_dotted"></div>
+            <p><b>Q:</b> Where is my code?</p>
+            <p><b>A:</b> Check the corner of your envelope</p>
+            <p><b>Q:</b> Where is my code?</p>
+            <p><b>A:</b> Check the corner of your envelope</p>
+            <p><b>Q:</b> Where is my code?</p>
+            <p><b>A:</b> Check the corner of your envelope</p>
+            <p><b>Q:</b> Where is my code?</p>
+            <p><b>A:</b> Check the corner of your envelope</p>
+            <div class="underline_dotted"></div>
+        	<a href="#" class="menu_help_toggle"><img src="svg/arrow_lt_thin.svg" class="fl_rt clearfix" style="height:3em;" /></a>
+        </div>		<!-- menu_help_lg -->
+        
+    </div>
+
+</body>
+</html>
